@@ -1,0 +1,17 @@
+﻿ID,Alias dictador,R1 - Monto entregado (anónimo),R1 - Monto conservado,R1 - Receptor anónimo,Ronda cara a cara,Ronda inferida,CC - Receptor,CC - Monto entregado,CC - Monto conservado,Conocimiento previo (1-5),Conocimiento (etiqueta),Diferencia CC - R1,Observaciones
+1,Trader 22,10,90,E.T,2,No,Tarr 980,10,90,1,No la conocía,0,
+2,Auto 722,0,100,Cami 555,2,No,Rasta 441,0,100,1,No la conocía,0,Receptor escrito 'rasta 44': se asume Rasta 441
+3,Fabri Valverde,0,100,Azul 498,3,No,Auto 722,50,50,4,La conocía bastante,50,
+4,Arroz 360,50,50,Superatomnicoto 585,3,Sí,Sol 220,50,50,1,No la conocía,0,No marcó ronda (se infiere R3: fue receptor de JCRJ 364 en R2). Alias del receptor tachado y reescrito. Conocimiento: circuló el '1' en vez de marcar X
+5,Azul 498,50,50,Sol 220,3,No,Naranja 1,100,0,4,La conocía bastante,50,
+6,Sol 220,90,10,Leon 695,2,No,abelhernandez66,90,10,1,No la conocía,0,"Monto R1 poco legible: puede ser 90 o 40 (se tomó 90, mismo trazo que R2)"
+7,Naranja 1,50,50,abelhernandez66,2,No,Fabri Valverde,50,50,1,No la conocía,0,
+8,Cami 555,50,50,JCRJ 364,2,No,Azul 498,80,20,4,La conocía bastante,30,Receptor escrito 'Azul 448': se asume Azul 498. Conocimiento marcado con garabato en el casillero 4
+9,Rasta 441,20,80,Fabri Valverde,3,No,Chita 512,45,55,5,La conocía muy bien,25,
+10,Chita 512,50,50,Tarr 980,2,No,Auto 883,50,50,5,La conocía muy bien,0,Receptor escrito 'Auto 683': se asume Auto 883
+11,JCRJ 364,50,50,Pechu,2,No,Arroz 360,50,50,2,La conocía poco,0,
+12,abelhernandez66,50,50,Chita 512,3,No,Cami 555,50,50,1,No la conocía,0,
+13,Auto 883,50,50,Lobo 565,3,No,JCRJ 364,50,50,1,No la conocía,0,
+14,Lobo 565,20,80,Rasta 441,3,No,Trader 22,30,70,3,La conocía moderadamente,10,Receptor escrito 'TRAIDER 22': se asume Trader 22
+15,Tarr 980,45,55,Naranja 1,3,No,Joselina 1,45,55,3,La conocía moderadamente,0,Receptores escritos 'Narnja 1' y 'joscLina 1': se asumen Naranja 1 y Joselina 1
+16,Joselina 1,20,80,Trader 22,2,No,Lobo 565,0,100,3,La conocía moderadamente,-20,Monto R1 sobrescrito/remarcado: se lee 20
