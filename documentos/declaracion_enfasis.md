@@ -1,6 +1,5 @@
 # Declaración de énfasis
 
-- **Pregunta de investigación:** pendiente.
-- **Unidad de observación:** pendiente (participante en la encuesta; decisión en el juego).
-- **Pasos de mayor trabajo:** pendiente.
-- **Razón en términos de los datos:** pendiente.
+- **Pregunta de investigación:** ¿Se relacionan las características que las personas declaran sobre sí mismas con cuánto entregan en el Juego del Dictador? ¿Cambia el monto entregado según el receptor sea anónimo o esté cara a cara?
+- **Unidad de observación:** Cada participante de la encuesta 
+- **Tipo de variable:**  Lo relevante es comparar los datos declarados (encuesta) vs los datos observados (juego) 
