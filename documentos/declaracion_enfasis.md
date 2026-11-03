@@ -2,4 +2,7 @@
 
 - **Pregunta de investigación:** ¿Se relacionan las características que las personas declaran sobre sí mismas con cuánto entregan en el Juego del Dictador? ¿Cambia el monto entregado según el receptor sea anónimo o esté cara a cara?
 - **Unidad de observación:** Cada participante de la encuesta 
-- **Tipo de variable:**  Lo relevante es comparar los datos declarados (encuesta) vs los datos observados (juego) 
+- **Tipo de variable:**  Lo relevante es comparar los datos declarados (encuesta) vs los datos observados (juego)
+
+- Aprovecho para sumar el link de la encuesta realizada, para la recoleccion de datos declarados https://docs.google.com/forms/d/e/1FAIpQLSf5B5TtiJwBdXGQxaGI_VAw1PxgNKHhTeUxLrHZaLEEyN4YKg/viewform 
+
