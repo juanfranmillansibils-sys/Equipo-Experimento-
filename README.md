@@ -37,20 +37,6 @@ pip install -r requirements.txt
 python codigo/run_all.py
 ```
 
-## Pasos de la pauta
-
-| Paso | Contenido | Estado |
-|---|---|---|
-| 1 | Importar los datos crudos | en curso |
-| 2 | Perfilar el dato crudo | pendiente |
-| 3 | Ordenar y limpiar | pendiente |
-| 4 | Unir tablas | pendiente |
-| 5 | Generar nueva información | pendiente |
-| 6 | Explorar: visualizar y modelar | pendiente |
-| 7 | Comunicar | pendiente |
-
-El detalle de cada paso está en `documentos/metodologia.md`.
-
 ## Limitaciones
 
 - Muestra pequeña (22 encuestados, 18 jugadores).
