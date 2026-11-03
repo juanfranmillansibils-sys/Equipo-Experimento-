@@ -59,4 +59,4 @@ El detalle de cada paso está en `documentos/metodologia.md`.
 
 ## Integrantes
 
-Pendiente.
+Vicente Alvarez, Facundo Botti, Ignacio Merli, Juan Millán y Luca Sonneveld
