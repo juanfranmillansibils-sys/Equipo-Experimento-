@@ -10,8 +10,8 @@ El diseño experimental no permite demostrar causalidad en general; el análisis
 
 ## Datos
 
-- **Encuesta** (Google Forms): 22 respuestas. Exportación en `datos/crudos/encuesta_export_google_sheets.pdf`.
-- **Juego del Dictador** (presencial, 18 participantes): decisiones registradas en fichas de papel (`documentos/ficha_juego.pdf`), transcritas a planilla.
+- **Encuesta** (Google Forms): 34 respuestas. Exportación en `Encuesta Equipo _Experimento_ CdD (Respuestas).pdf`.
+- **Juego del Dictador** (presencial, 16 participantes): decisiones registradas en fichas de papel (`documentos/ficha_juego.pdf`), transcritas a planilla.
 - **Unión** por alias: la encuesta es la tabla base. Los participantes sin registro de juego quedan con valores nulos.
 
 ## Estructura
@@ -39,7 +39,9 @@ python codigo/run_all.py
 
 ## Limitaciones
 
-- Muestra pequeña (22 encuestados, 18 jugadores).
+- Muestra pequeña (34 encuestados, 16 jugadores).
+- Hubo respuestas de personas que no pudieron jugar.
+- Hay posibles respuestas dobles, que se revisan en el paso 3.
 - Todos los participantes tomaron primero la decisión anónima y después la cara a cara. El orden queda confundido con la experiencia previa.
 - Cada jugador aporta dos decisiones, por lo que no son observaciones independientes.
 
