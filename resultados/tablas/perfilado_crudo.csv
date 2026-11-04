@@ -1,0 +1,25 @@
+tabla,variable,tipo,filas,valores_distintos,faltantes,minimo,maximo,fuera_de_rango,con_espacios_irregulares,variantes_de_escritura,unico,sin_coincidencia_exacta_con_encuesta
+encuesta,Marca temporal,texto,34,34,0,,,,0,0,True,
+encuesta,¿Cuántos años tenés?,numerica,34,7,0,19,40,0,0,0,False,
+encuesta,Sexo Biológico,texto,34,2,0,,,,0,0,False,
+encuesta,"En una escala de 1 a 5, ¿qué tan generoso/a te considerás con otras personas?",numerica,34,3,0,3,5,0,0,0,False,
+encuesta,"En una escala de 1 a 5, ¿qué tan importante es para vos actuar de forma justa cuando una decisión también afecta a otra persona?",numerica,34,3,0,3,5,0,0,0,False,
+encuesta,"Cuando tomás una decisión que también afecta a otra persona, ¿cuánto tenés en cuenta cómo puede afectarla?",numerica,34,3,0,3,5,0,0,0,False,
+encuesta,"Cuando tomás una decisión, ¿qué tan importante es para vos obtener el mejor resultado posible para vos mismo/a?",numerica,34,4,0,2,5,0,0,0,False,
+encuesta,"En una escala de 1 a 5, ¿qué tan competitivo/a te considerás frente a otras personas?",numerica,34,4,0,2,5,0,0,0,False,
+encuesta,¿Cuánto considerás que influye la opinión de otras personas en las decisiones que tomás?,numerica,34,4,0,2,5,0,0,0,False,
+encuesta,Código de participante,texto,34,34,0,,,,0,0,True,
+juego,ID,numerica,16,16,0,1,16,,0,0,True,
+juego,Alias dictador,texto,16,16,0,,,,0,0,True,14
+juego,R1 - Monto entregado (anónimo),numerica,16,6,0,0,90,0,0,0,False,
+juego,R1 - Monto conservado,numerica,16,6,0,10,100,,0,0,False,
+juego,R1 - Receptor anónimo,texto,16,16,0,,,,0,0,True,13
+juego,Ronda cara a cara,numerica,16,2,0,2,3,0,0,0,False,
+juego,Ronda inferida,texto,16,2,0,,,,0,0,False,
+juego,CC - Receptor,texto,16,16,0,,,,0,0,True,14
+juego,CC - Monto entregado,numerica,16,8,0,0,100,0,0,0,False,
+juego,CC - Monto conservado,numerica,16,8,0,0,100,,0,0,False,
+juego,Conocimiento previo (1-5),numerica,16,5,0,1,5,0,0,0,False,
+juego,Conocimiento (etiqueta),texto,16,5,0,,,,0,0,False,
+juego,Diferencia CC - R1,numerica,16,6,0,-20,50,,0,0,False,
+juego,Observaciones,texto,16,8,8,,,,0,0,True,
