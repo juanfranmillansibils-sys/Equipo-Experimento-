@@ -2,13 +2,10 @@
 
 ## Paso 1 – Importar los datos crudos
 
-**Encuesta.** Google Forms, aplicada al equipo. Exportación en PDF de la hoja de respuestas (`datos/crudos/encuesta_export_google_sheets.pdf`), 22 respuestas, marcas temporales desde el 24/9/2026. Variables en `documentos/diccionario_variables.csv`.
-- Población invitada: pendiente.
-- No respondieron: pendiente.
+**Encuesta.** Google Forms enviada a todos los alumnos de ambos grupos. Exportación en PDF de la hoja de respuestas (`datos/crudos/encuesta_export_google_sheets.pdf`), 34 respuestas, marcas temporales desde el 24/9/2026. Variables en `documentos/diccionario_variables.csv`.
+- Población invitada: Ambos grupos.
 
-**Juego del Dictador.** Fichas en papel (`documentos/ficha_juego.pdf`), transcritas a planilla con una plantilla con validaciones. 18 participantes.
-- Quién transcribió y cómo se verificó: pendiente.
-- Escaneos de las fichas: pendiente.
+**Juego del Dictador.** Fichas en papel (`documentos/ficha_juego.pdf`), 16 participantes. Transcritas a la plantilla de carga por dos integrantes del equipo para mejorar validación. Ronda 1 asignada por sorteo anónimo, Rondas 2 y 3 (cara a cara) sorteo en la clase.
 
 ## Paso 2 – Perfilar el dato crudo
 Pendiente.
