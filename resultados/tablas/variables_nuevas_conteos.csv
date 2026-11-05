@@ -1,0 +1,10 @@
+variable,valor,filas
+incluir_analisis,1,33
+incluir_analisis,0,1
+cambio_monto,sin juego,18
+cambio_monto,igual,10
+cambio_monto,aumenta,5
+cambio_monto,disminuye,1
+grupo_edad,19-20,23
+grupo_edad,21-22,6
+grupo_edad,23 o más,5
