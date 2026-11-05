@@ -1,4 +1,4 @@
-Marca temporal,¿Cuántos años tenés?,Sexo Biológico,"En una escala de 1 a 5, ¿qué tan generoso/a te considerás con otras personas?","En una escala de 1 a 5, ¿qué tan importante es para vos actuar de forma justa cuando una decisión también afecta a otra persona?","Cuando tomás una decisión que también afecta a otra persona, ¿cuánto tenés en cuenta cómo puede afectarla?","Cuando tomás una decisión, ¿qué tan importante es para vos obtener el mejor resultado posible para vos mismo/a?","En una escala de 1 a 5, ¿qué tan competitivo/a te considerás frente a otras personas?",¿Cuánto considerás que influye la opinión de otras personas en las decisiones que tomás?,Código de participante,posible_doble
+marca_temporal,edad,sexo,generosidad,justicia,consideracion_otros,beneficio_propio,competitividad,influencia_social,alias,posible_doble
 2026-09-24 12:14:46,20,Femenino,4,5,4,4,3,3,Cami555,
 2026-09-24 12:14:59,20,Femenino,4,4,4,4,3,3,leon695,
 2026-09-24 12:15:13,21,Femenino,4,5,4,4,5,3,norma312,

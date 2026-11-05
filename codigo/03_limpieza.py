@@ -45,6 +45,37 @@ JUE_NUM = ["ID", "R1 - Monto entregado (anónimo)", "R1 - Monto conservado", "Ro
            "Diferencia CC - R1"]
 
 
+# Nombres finales (ver documentos/diccionario_variables.csv). Se aplican al final.
+ENC_RENOMBRAR = {
+    COD: "alias",
+    "Marca temporal": "marca_temporal",
+    "¿Cuántos años tenés?": "edad",
+    "Sexo Biológico": "sexo",
+    ENC_NUM[1]: "generosidad",
+    ENC_NUM[2]: "justicia",
+    ENC_NUM[3]: "consideracion_otros",
+    ENC_NUM[4]: "beneficio_propio",
+    ENC_NUM[5]: "competitividad",
+    ENC_NUM[6]: "influencia_social",
+}
+JUE_RENOMBRAR = {
+    "ID": "id_ficha",
+    "Alias dictador (limpio)": "alias",
+    "R1 - Monto entregado (anónimo)": "entregado_anonimo",
+    "R1 - Monto conservado": "conservado_anonimo",
+    "R1 - Receptor anónimo (limpio)": "receptor_anonimo",
+    "Ronda cara a cara": "ronda",
+    "Ronda inferida": "ronda_inferida",
+    "CC - Receptor (limpio)": "receptor_visible",
+    "CC - Monto entregado": "entregado_visible",
+    "CC - Monto conservado": "conservado_visible",
+    "Conocimiento previo (1-5)": "grado_conocimiento",
+    "Conocimiento (etiqueta)": "conocimiento_etiqueta",
+    "Diferencia CC - R1": "diferencia",
+    "Observaciones": "observaciones",
+}
+
+
 def norm(s):
     return re.sub(r"\s+", "", str(s)).lower()
 
@@ -139,7 +170,9 @@ def main():
     for c in JUE_NUM:
         jue[c] = pd.to_numeric(jue[c], errors="coerce")
 
-    enc = enc.drop(columns=["clave"])
+    # 6. Nombres finales. Se quitan las columnas de alias originales (quedan las limpias).
+    enc = enc.drop(columns=["clave"]).rename(columns=ENC_RENOMBRAR)
+    jue = jue.drop(columns=JUE_ALIAS).rename(columns=JUE_RENOMBRAR)
     enc.to_csv(FINALES / "encuesta_limpia.csv", index=False, encoding="utf-8")
     jue.to_csv(FINALES / "juego_limpio.csv", index=False, encoding="utf-8")
 

@@ -1,7 +1,7 @@
 """Paso 4 - Unir tablas.
 
-Une la encuesta (tabla base) con el juego por alias limpio. Reporta la
-correspondencia en los dos sentidos: quién está en un lado y no en el otro.
+Une la encuesta (tabla base) con el juego por alias. Reporta la correspondencia
+en los dos sentidos: quién está en un lado y no en el otro.
 
 Uso (desde la raíz del repo):
     python codigo/04_union.py
@@ -14,25 +14,21 @@ RAIZ = Path(__file__).resolve().parent.parent
 FINALES = RAIZ / "datos" / "finales"
 TABLAS = RAIZ / "resultados" / "tablas"
 
-COD = "Código de participante"
-ALIAS_JUEGO = "Alias dictador (limpio)"
-
 
 def main():
     TABLAS.mkdir(parents=True, exist_ok=True)
-    enc = pd.read_csv(FINALES / "encuesta_limpia.csv", dtype={COD: str})
-    jue = pd.read_csv(FINALES / "juego_limpio.csv", dtype={ALIAS_JUEGO: str})
+    enc = pd.read_csv(FINALES / "encuesta_limpia.csv", dtype={"alias": str})
+    jue = pd.read_csv(FINALES / "juego_limpio.csv", dtype={"alias": str})
 
-    union = enc.merge(jue, how="left", left_on=COD, right_on=ALIAS_JUEGO, indicator=True,
-                      validate="one_to_one")
+    union = enc.merge(jue, how="left", on="alias", indicator=True, validate="one_to_one")
     union["en_juego"] = union["_merge"].eq("both")
     union = union.drop(columns=["_merge"])
 
     solo_encuesta = int((~union["en_juego"]).sum())
-    solo_juego = int((~jue[ALIAS_JUEGO].isin(enc[COD])).sum())
+    solo_juego = int((~jue["alias"].isin(enc["alias"])).sum())
     conteos = pd.DataFrame([
         {"concepto": "tipo de unión", "valor": "left (encuesta como base)"},
-        {"concepto": "clave", "valor": f"{COD} = {ALIAS_JUEGO}"},
+        {"concepto": "clave", "valor": "alias"},
         {"concepto": "filas encuesta", "valor": len(enc)},
         {"concepto": "filas juego", "valor": len(jue)},
         {"concepto": "encuesta con juego", "valor": int(union["en_juego"].sum())},
