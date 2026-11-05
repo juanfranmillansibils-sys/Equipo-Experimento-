@@ -1,1 +1,26 @@
-variable,descripcion,tipo,origen_o_formula
+tabla,variable_final,columna_original,tipo,valores,descripcion,origen
+encuesta,alias,Código de participante,texto,—,Identificador del participante. Clave de unión con el juego,propuesta del equipo
+encuesta,marca_temporal,Marca temporal,fecha y hora,—,Momento de la respuesta. Sirve para detectar duplicados,propuesta adicional
+encuesta,edad,¿Cuántos años tenés?,entero,17 a 99,Edad declarada,propuesta del equipo
+encuesta,sexo,Sexo Biológico,texto,Femenino / Masculino,Sexo biológico declarado,propuesta adicional
+encuesta,generosidad,En una escala de 1 a 5 ¿qué tan generoso/a te considerás con otras personas?,entero,1 a 5,Generosidad autopercibida,propuesta del equipo
+encuesta,justicia,En una escala de 1 a 5 ¿qué tan importante es para vos actuar de forma justa cuando una decisión también afecta a otra persona?,entero,1 a 5,Importancia de actuar de forma justa,propuesta del equipo
+encuesta,consideracion_otros,Cuando tomás una decisión que también afecta a otra persona ¿cuánto tenés en cuenta cómo puede afectarla?,entero,1 a 5,Consideración hacia los demás al decidir,propuesta del equipo
+encuesta,beneficio_propio,Cuando tomás una decisión ¿qué tan importante es para vos obtener el mejor resultado posible para vos mismo/a?,entero,1 a 5,Importancia del beneficio personal al decidir,propuesta del equipo
+encuesta,competitividad,En una escala de 1 a 5 ¿qué tan competitivo/a te considerás frente a otras personas?,entero,1 a 5,Competitividad autopercibida,propuesta del equipo
+encuesta,influencia_social,¿Cuánto considerás que influye la opinión de otras personas en las decisiones que tomás?,entero,1 a 5,Influencia de la opinión de otras personas,propuesta del equipo
+encuesta,posible_doble,(creada en el paso 3),texto,—,Código de la otra respuesta de la misma persona. Vacío si no hay,creada en el paso 3
+juego,id_ficha,ID,entero,1 a 16,Número de ficha,propuesta adicional
+juego,alias,Alias dictador (limpio),texto,—,Dictador. Clave de unión con la encuesta,propuesta del equipo
+juego,entregado_anonimo,R1 - Monto entregado (anónimo),entero,0 a 100,Monto entregado en la ronda 1 anónima,propuesta del equipo
+juego,conservado_anonimo,R1 - Monto conservado,entero,0 a 100,Monto conservado en la ronda 1 (100 menos entregado),propuesta adicional
+juego,receptor_anonimo,R1 - Receptor anónimo (limpio),texto,—,Receptor de la ronda 1,propuesta adicional
+juego,ronda,Ronda cara a cara,entero,2 o 3,Ronda de la decisión cara a cara,propuesta adicional
+juego,ronda_inferida,Ronda inferida,texto,Sí / No,Sí si la ronda se infirió porque no estaba marcada,propuesta adicional
+juego,receptor_visible,CC - Receptor (limpio),texto,—,Receptor cara a cara,propuesta adicional
+juego,entregado_visible,CC - Monto entregado,entero,0 a 100,Monto entregado cara a cara (ronda 2 o 3),propuesta del equipo
+juego,conservado_visible,CC - Monto conservado,entero,0 a 100,Monto conservado cara a cara (100 menos entregado),propuesta adicional
+juego,grado_conocimiento,Conocimiento previo (1-5),entero,1 a 5,Cuánto conocía al receptor,propuesta del equipo
+juego,conocimiento_etiqueta,Conocimiento (etiqueta),texto,No la conocía / La conocía poco / La conocía moderadamente / La conocía bastante / La conocía muy bien,Etiqueta de grado_conocimiento (redundante con esa variable),propuesta adicional
+juego,diferencia,Diferencia CC - R1,entero,−100 a 100,entregado_visible menos entregado_anonimo,propuesta del equipo
+juego,observaciones,Observaciones,texto,—,Notas de la transcripción de la ficha,propuesta adicional
