@@ -1,0 +1,11 @@
+variable,grupo,n,anonimo_media,visible_media,diferencia_media
+sexo,Femenino,11,43.2,50.9,7.7
+sexo,Masculino,5,26.0,38.0,12.0
+grupo_edad,19-20,13,34.2,46.9,12.7
+grupo_edad,21-22,2,70.0,70.0,0.0
+grupo_edad,23 o más,1,20.0,0.0,-20.0
+grado_conocimiento,1.0,7,42.9,42.9,0.0
+grado_conocimiento,2.0,1,50.0,50.0,0.0
+grado_conocimiento,3.0,3,28.3,25.0,-3.3
+grado_conocimiento,4.0,3,33.3,76.7,43.3
+grado_conocimiento,5.0,2,35.0,47.5,12.5
