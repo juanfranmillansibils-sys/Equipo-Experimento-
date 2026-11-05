@@ -3,3 +3,10 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .DS_Store
+~$*
+*.xlsx
+.venv/
+venv/
+.vscode/
+Thumbs.db
+desktop.ini
