@@ -8,7 +8,7 @@
 **Juego del Dictador.** Fichas en papel (`documentos/ficha_juego.pdf`), 16 participantes. Transcritas a la plantilla de carga por dos integrantes del equipo para mejorar validación. Ronda 1 asignada por sorteo anónimo, Rondas 2 y 3 (cara a cara) sorteo en la clase.
 
 ## Paso 2 – Perfilar el dato crudo
-**Metodo.** `codigo/02_perfilado.py` lee los dos CSV sin modificarlos y genera `resultados/tablas/perfilado_crudo.csv`, con una fila por variable. Registra tipo, valores distintos, faltantes, mínimo y máximo, valores fuera de rango, espacios irregulares y variantes de escritura. Para los alias del juego, cuenta cuántos no coinciden exactamente con los códigos de la encuesta. Reglas de rango: edad 17 a 99, escalas 1 a 5, montos 0 a 100, conocimiento 1 a 5, ronda 2 o 3.
+**Método.** `codigo/02_perfilado.py` lee los dos CSV sin modificarlos y genera `resultados/tablas/perfilado_crudo.csv`, con una fila por variable. Registra tipo, valores distintos, faltantes, mínimo y máximo, valores fuera de rango, espacios irregulares y variantes de escritura. Para los alias del juego, cuenta cuántos no coinciden exactamente con los códigos de la encuesta. Reglas de rango: edad 17 a 99, escalas 1 a 5, montos 0 a 100, conocimiento 1 a 5, ronda 2 o 3.
 
 **Resultados.**
 - Encuesta: 34 respuestas, 10 variables. Sin faltantes ni valores fuera de rango. Edad entre 19 y 40 años.
