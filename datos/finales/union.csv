@@ -1,0 +1,35 @@
+marca_temporal,edad,sexo,generosidad,justicia,consideracion_otros,beneficio_propio,competitividad,influencia_social,alias,posible_doble,id_ficha,entregado_anonimo,conservado_anonimo,ronda,ronda_inferida,entregado_visible,conservado_visible,grado_conocimiento,conocimiento_etiqueta,diferencia,observaciones,receptor_anonimo,receptor_visible,en_juego
+2026-09-24 12:14:46,20,Femenino,4,5,4,4,3,3,Cami555,,8.0,50.0,50.0,2.0,No,80.0,20.0,4.0,La conocía bastante,30.0,Receptor escrito 'Azul 448': se asume Azul 498. Conocimiento marcado con garabato en el casillero 4,JCRJ364,Azul498,True
+2026-09-24 12:14:59,20,Femenino,4,4,4,4,3,3,leon695,,,,,,,,,,,,,,,False
+2026-09-24 12:15:13,21,Femenino,4,5,4,4,5,3,norma312,,,,,,,,,,,,,,,False
+2026-09-24 12:15:15,19,Masculino,4,4,5,5,3,3,Lobo565,,14.0,20.0,80.0,3.0,No,30.0,70.0,3.0,La conocía moderadamente,10.0,Receptor escrito 'TRAIDER 22': se asume Trader 22,Rasta441,Trader22,True
+2026-09-24 12:15:21,19,Femenino,4,5,4,4,3,4,Chita512,,10.0,50.0,50.0,2.0,No,50.0,50.0,5.0,La conocía muy bien,0.0,Receptor escrito 'Auto 683': se asume Auto 883,tarr980,Auto883,True
+2026-09-24 12:15:23,20,Masculino,4,5,4,4,3,4,Pan430,,,,,,,,,,,,,,,False
+2026-09-24 12:15:36,20,Femenino,4,4,4,5,3,4,Naranja1,,7.0,50.0,50.0,2.0,No,50.0,50.0,1.0,No la conocía,0.0,,abelhernandez66,Fabri Valverde,True
+2026-09-24 12:15:46,20,Masculino,4,5,4,5,4,2,superatomnicoto585,,,,,,,,,,,,,,,False
+2026-09-24 12:15:50,22,Femenino,4,5,5,4,3,3,JCRJ364,,11.0,50.0,50.0,2.0,No,50.0,50.0,2.0,La conocía poco,0.0,,pechu,arroz360,True
+2026-09-24 12:15:51,21,Femenino,4,5,4,4,3,4,Sol220,,6.0,90.0,10.0,2.0,No,90.0,10.0,1.0,No la conocía,0.0,"Monto R1 poco legible: puede ser 90 o 40 (se tomó 90, mismo trazo que R2)",leon695,abelhernandez66,True
+2026-09-24 12:16:02,20,Masculino,4,3,4,2,3,2,pechu,,,,,,,,,,,,,,,False
+2026-09-24 12:16:04,21,Masculino,4,4,5,5,3,3,E.T,,,,,,,,,,,,,,,False
+2026-09-24 12:16:20,19,Femenino,4,5,4,4,5,5,Rasta441,,9.0,20.0,80.0,3.0,No,45.0,55.0,5.0,La conocía muy bien,25.0,,Fabri Valverde,Chita512,True
+2026-09-24 12:16:23,19,Masculino,4,5,4,5,5,2,Fabri Valverde,,3.0,0.0,100.0,3.0,No,50.0,50.0,4.0,La conocía bastante,50.0,,Azul498,Auto722,True
+2026-09-24 12:16:25,40,Femenino,3,5,5,2,2,3,joselina1,,16.0,20.0,80.0,2.0,No,0.0,100.0,3.0,La conocía moderadamente,-20.0,Monto R1 sobrescrito/remarcado: se lee 20,Trader22,Lobo565,True
+2026-09-24 12:16:42,19,Femenino,4,4,5,3,2,3,Auto883,,13.0,50.0,50.0,3.0,No,50.0,50.0,1.0,No la conocía,0.0,,Lobo565,JCRJ364,True
+2026-09-24 12:16:53,20,Masculino,4,5,4,3,5,3,abelhernandez66,,12.0,50.0,50.0,3.0,No,50.0,50.0,1.0,No la conocía,0.0,,Chita512,Cami555,True
+2026-09-24 12:16:56,19,Femenino,4,4,5,4,4,5,tarr980,,15.0,45.0,55.0,3.0,No,45.0,55.0,3.0,La conocía moderadamente,0.0,Receptores escritos 'Narnja 1' y 'joscLina 1': se asumen Naranja 1 y Joselina 1,Naranja1,joselina1,True
+2026-09-24 12:17:14,19,Femenino,4,5,4,4,5,2,Auto722,,2.0,0.0,100.0,2.0,No,0.0,100.0,1.0,No la conocía,0.0,Receptor escrito 'rasta 44': se asume Rasta 441,Cami555,Rasta441,True
+2026-09-24 12:17:51,20,Femenino,4,4,5,4,4,5,Azul498,,5.0,50.0,50.0,3.0,No,100.0,0.0,4.0,La conocía bastante,50.0,,Sol220,Naranja1,True
+2026-09-24 12:18:04,20,Masculino,4,5,4,5,4,4,Trader22,,1.0,10.0,90.0,2.0,No,10.0,90.0,1.0,No la conocía,0.0,,E.T,tarr980,True
+2026-09-24 12:27:43,19,Masculino,4,4,4,5,4,3,arroz360,,4.0,50.0,50.0,3.0,Sí,50.0,50.0,1.0,No la conocía,0.0,No marcó ronda (se infiere R3: fue receptor de JCRJ 364 en R2). Alias del receptor tachado y reescrito. Conocimiento: circuló el '1' en vez de marcar X,superatomnicoto585,Sol220,True
+2026-10-27 09:04:40,20,Masculino,4,4,4,4,4,4,Tigre1234,,,,,,,,,,,,,,,False
+2026-10-27 09:06:09,23,Femenino,4,5,4,4,5,3,sol749,,,,,,,,,,,,,,,False
+2026-10-27 09:07:48,21,Masculino,4,4,3,4,4,2,Tigre261,,,,,,,,,,,,,,,False
+2026-10-27 09:09:29,20,Masculino,4,5,4,5,4,3,Pato363,,,,,,,,,,,,,,,False
+2026-10-27 09:16:10,20,Masculino,5,4,4,4,3,3,pechu542,pechu,,,,,,,,,,,,,,False
+2026-10-27 10:02:55,21,Masculino,4,3,3,4,5,3,Bena08,,,,,,,,,,,,,,,False
+2026-10-27 10:05:19,23,Femenino,4,5,5,4,3,4,Pmc543,,,,,,,,,,,,,,,False
+2026-10-27 10:21:08,20,Masculino,3,3,4,3,5,3,Salo360,,,,,,,,,,,,,,,False
+2026-10-27 11:06:34,23,Masculino,5,4,4,5,4,2,Fran1905,,,,,,,,,,,,,,,False
+2026-10-27 11:56:43,19,Masculino,4,4,4,5,5,2,TyrionL,,,,,,,,,,,,,,,False
+2026-10-27 20:48:48,26,Masculino,4,4,4,4,4,2,Termo123,,,,,,,,,,,,,,,False
+2026-10-29 10:08:37,20,Femenino,4,5,5,5,3,2,Silla300,,,,,,,,,,,,,,,False

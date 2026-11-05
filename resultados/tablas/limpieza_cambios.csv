@@ -1,0 +1,50 @@
+tabla,ID,columna,original,limpio,motivo
+juego,1,Alias dictador,Trader 22,Trader22,alias normalizado al código de la encuesta
+juego,2,Alias dictador,Auto 722,Auto722,alias normalizado al código de la encuesta
+juego,4,Alias dictador,Arroz 360,arroz360,alias normalizado al código de la encuesta
+juego,5,Alias dictador,Azul 498,Azul498,alias normalizado al código de la encuesta
+juego,6,Alias dictador,Sol 220,Sol220,alias normalizado al código de la encuesta
+juego,7,Alias dictador,Naranja 1,Naranja1,alias normalizado al código de la encuesta
+juego,8,Alias dictador,Cami 555,Cami555,alias normalizado al código de la encuesta
+juego,9,Alias dictador,Rasta 441,Rasta441,alias normalizado al código de la encuesta
+juego,10,Alias dictador,Chita 512,Chita512,alias normalizado al código de la encuesta
+juego,11,Alias dictador,JCRJ 364,JCRJ364,alias normalizado al código de la encuesta
+juego,13,Alias dictador,Auto 883,Auto883,alias normalizado al código de la encuesta
+juego,14,Alias dictador,Lobo 565,Lobo565,alias normalizado al código de la encuesta
+juego,15,Alias dictador,Tarr 980,tarr980,alias normalizado al código de la encuesta
+juego,16,Alias dictador,Joselina 1,joselina1,alias normalizado al código de la encuesta
+juego,2,R1 - Receptor anónimo,Cami 555,Cami555,alias normalizado al código de la encuesta
+juego,3,R1 - Receptor anónimo,Azul 498,Azul498,alias normalizado al código de la encuesta
+juego,4,R1 - Receptor anónimo,Superatomnicoto 585,superatomnicoto585,alias normalizado al código de la encuesta
+juego,5,R1 - Receptor anónimo,Sol 220,Sol220,alias normalizado al código de la encuesta
+juego,6,R1 - Receptor anónimo,Leon 695,leon695,alias normalizado al código de la encuesta
+juego,8,R1 - Receptor anónimo,JCRJ 364,JCRJ364,alias normalizado al código de la encuesta
+juego,10,R1 - Receptor anónimo,Tarr 980,tarr980,alias normalizado al código de la encuesta
+juego,11,R1 - Receptor anónimo,Pechu,pechu,alias normalizado al código de la encuesta
+juego,12,R1 - Receptor anónimo,Chita 512,Chita512,alias normalizado al código de la encuesta
+juego,13,R1 - Receptor anónimo,Lobo 565,Lobo565,alias normalizado al código de la encuesta
+juego,14,R1 - Receptor anónimo,Rasta 441,Rasta441,alias normalizado al código de la encuesta
+juego,15,R1 - Receptor anónimo,Naranja 1,Naranja1,alias normalizado al código de la encuesta
+juego,16,R1 - Receptor anónimo,Trader 22,Trader22,alias normalizado al código de la encuesta
+juego,1,CC - Receptor,Tarr 980,tarr980,alias normalizado al código de la encuesta
+juego,2,CC - Receptor,Rasta 441,Rasta441,alias normalizado al código de la encuesta
+juego,3,CC - Receptor,Auto 722,Auto722,alias normalizado al código de la encuesta
+juego,4,CC - Receptor,Sol 220,Sol220,alias normalizado al código de la encuesta
+juego,5,CC - Receptor,Naranja 1,Naranja1,alias normalizado al código de la encuesta
+juego,8,CC - Receptor,Azul 498,Azul498,alias normalizado al código de la encuesta
+juego,9,CC - Receptor,Chita 512,Chita512,alias normalizado al código de la encuesta
+juego,10,CC - Receptor,Auto 883,Auto883,alias normalizado al código de la encuesta
+juego,11,CC - Receptor,Arroz 360,arroz360,alias normalizado al código de la encuesta
+juego,12,CC - Receptor,Cami 555,Cami555,alias normalizado al código de la encuesta
+juego,13,CC - Receptor,JCRJ 364,JCRJ364,alias normalizado al código de la encuesta
+juego,14,CC - Receptor,Trader 22,Trader22,alias normalizado al código de la encuesta
+juego,15,CC - Receptor,Joselina 1,joselina1,alias normalizado al código de la encuesta
+juego,16,CC - Receptor,Lobo 565,Lobo565,alias normalizado al código de la encuesta
+juego,2,Observaciones,Receptor escrito 'rasta 44': se asume Rasta 441,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,4,Observaciones,No marcó ronda (se infiere R3: fue receptor de JCRJ 364 en R2). Alias del receptor tachado y reescrito. Conocimiento: circuló el '1' en vez de marcar X,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,6,Observaciones,"Monto R1 poco legible: puede ser 90 o 40 (se tomó 90, mismo trazo que R2)",,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,8,Observaciones,Receptor escrito 'Azul 448': se asume Azul 498. Conocimiento marcado con garabato en el casillero 4,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,10,Observaciones,Receptor escrito 'Auto 683': se asume Auto 883,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,14,Observaciones,Receptor escrito 'TRAIDER 22': se asume Trader 22,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,15,Observaciones,Receptores escritos 'Narnja 1' y 'joscLina 1': se asumen Naranja 1 y Joselina 1,,revisar: corrección o dato dudoso de transcripción (decide el equipo)
+juego,16,Observaciones,Monto R1 sobrescrito/remarcado: se lee 20,,revisar: corrección o dato dudoso de transcripción (decide el equipo)

@@ -1,0 +1,9 @@
+concepto,valor
+tipo de unión,left (encuesta como base)
+clave,alias
+filas encuesta,34
+filas juego,16
+encuesta con juego,16
+encuesta sin juego,18
+juego sin encuesta,0
+filas en la unión,34

@@ -1,0 +1,17 @@
+id_ficha,entregado_anonimo,conservado_anonimo,ronda,ronda_inferida,entregado_visible,conservado_visible,grado_conocimiento,conocimiento_etiqueta,diferencia,observaciones,alias,receptor_anonimo,receptor_visible
+1,10,90,2,No,10,90,1,No la conocía,0,,Trader22,E.T,tarr980
+2,0,100,2,No,0,100,1,No la conocía,0,Receptor escrito 'rasta 44': se asume Rasta 441,Auto722,Cami555,Rasta441
+3,0,100,3,No,50,50,4,La conocía bastante,50,,Fabri Valverde,Azul498,Auto722
+4,50,50,3,Sí,50,50,1,No la conocía,0,No marcó ronda (se infiere R3: fue receptor de JCRJ 364 en R2). Alias del receptor tachado y reescrito. Conocimiento: circuló el '1' en vez de marcar X,arroz360,superatomnicoto585,Sol220
+5,50,50,3,No,100,0,4,La conocía bastante,50,,Azul498,Sol220,Naranja1
+6,90,10,2,No,90,10,1,No la conocía,0,"Monto R1 poco legible: puede ser 90 o 40 (se tomó 90, mismo trazo que R2)",Sol220,leon695,abelhernandez66
+7,50,50,2,No,50,50,1,No la conocía,0,,Naranja1,abelhernandez66,Fabri Valverde
+8,50,50,2,No,80,20,4,La conocía bastante,30,Receptor escrito 'Azul 448': se asume Azul 498. Conocimiento marcado con garabato en el casillero 4,Cami555,JCRJ364,Azul498
+9,20,80,3,No,45,55,5,La conocía muy bien,25,,Rasta441,Fabri Valverde,Chita512
+10,50,50,2,No,50,50,5,La conocía muy bien,0,Receptor escrito 'Auto 683': se asume Auto 883,Chita512,tarr980,Auto883
+11,50,50,2,No,50,50,2,La conocía poco,0,,JCRJ364,pechu,arroz360
+12,50,50,3,No,50,50,1,No la conocía,0,,abelhernandez66,Chita512,Cami555
+13,50,50,3,No,50,50,1,No la conocía,0,,Auto883,Lobo565,JCRJ364
+14,20,80,3,No,30,70,3,La conocía moderadamente,10,Receptor escrito 'TRAIDER 22': se asume Trader 22,Lobo565,Rasta441,Trader22
+15,45,55,3,No,45,55,3,La conocía moderadamente,0,Receptores escritos 'Narnja 1' y 'joscLina 1': se asumen Naranja 1 y Joselina 1,tarr980,Naranja1,joselina1
+16,20,80,2,No,0,100,3,La conocía moderadamente,-20,Monto R1 sobrescrito/remarcado: se lee 20,joselina1,Trader22,Lobo565
