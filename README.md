@@ -44,6 +44,7 @@ python codigo/run_all.py
 - Hay posibles respuestas dobles, que se revisan en el paso 3.
 - Todos los participantes tomaron primero la decisión anónima y después la cara a cara. El orden queda confundido con la experiencia previa.
 - Cada jugador aporta dos decisiones, por lo que no son observaciones independientes.
+- La encuesta fue anónima, por lo que no es posible confirmar con certeza si una misma persona respondió más de una vez. Se identificaron cinco pares sospechosos por edad, sexo y respuestas
 
 ## Integrantes
 
