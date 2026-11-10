@@ -35,6 +35,8 @@ def main():
         {"concepto": "encuesta sin juego", "valor": solo_encuesta},
         {"concepto": "juego sin encuesta", "valor": solo_juego},
         {"concepto": "filas en la unión", "valor": len(union)},
+        {"concepto": "filas si fuera inner join (solo quienes están en ambas)",
+         "valor": len(enc.merge(jue, how="inner", on="alias"))},
     ])
     union.to_csv(FINALES / "union.csv", index=False, encoding="utf-8")
     conteos.to_csv(TABLAS / "union_conteos.csv", index=False, encoding="utf-8")

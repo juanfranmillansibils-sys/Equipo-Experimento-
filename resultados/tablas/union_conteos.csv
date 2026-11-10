@@ -7,3 +7,4 @@ encuesta con juego,16
 encuesta sin juego,18
 juego sin encuesta,0
 filas en la unión,34
+filas si fuera inner join (solo quienes están en ambas),16

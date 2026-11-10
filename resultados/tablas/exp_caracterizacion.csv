@@ -1,0 +1,15 @@
+población,variable,categoría,valor
+encuesta,personas,,33
+encuesta,sexo,Masculino,17 (52%)
+encuesta,sexo,Femenino,16 (48%)
+encuesta,grupo de edad,19-20,22 (67%)
+encuesta,grupo de edad,21-22,6 (18%)
+encuesta,grupo de edad,23 o más,5 (15%)
+encuesta,edad,media (mín–máx),21.0 (19–40)
+jugadores,personas,,16
+jugadores,sexo,Femenino,11 (69%)
+jugadores,sexo,Masculino,5 (31%)
+jugadores,grupo de edad,19-20,13 (81%)
+jugadores,grupo de edad,21-22,2 (12%)
+jugadores,grupo de edad,23 o más,1 (6%)
+jugadores,edad,media (mín–máx),20.9 (19–40)

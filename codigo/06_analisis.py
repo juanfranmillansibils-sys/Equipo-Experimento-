@@ -129,6 +129,59 @@ def main():
     fig.savefig(GRAFICOS / "exp_diferencia_hist.png", dpi=150)
     plt.close(fig)
 
+    # 8. Caracterización de la población: personas en el análisis y jugadores
+    def caracterizar(d, nombre):
+        filas = [{"población": nombre, "variable": "personas", "categoría": "", "valor": len(d)}]
+        for cat, n in d["sexo"].value_counts().items():
+            filas.append({"población": nombre, "variable": "sexo", "categoría": cat,
+                          "valor": f"{n} ({n / len(d) * 100:.0f}%)"})
+        for cat, n in d["grupo_edad"].value_counts().items():
+            filas.append({"población": nombre, "variable": "grupo de edad", "categoría": cat,
+                          "valor": f"{n} ({n / len(d) * 100:.0f}%)"})
+        filas.append({"población": nombre, "variable": "edad", "categoría": "media (mín–máx)",
+                      "valor": f"{d['edad'].mean():.1f} ({d['edad'].min()}–{d['edad'].max()})"})
+        return filas
+
+    caract = pd.DataFrame(caracterizar(df, "encuesta") + caracterizar(jug, "jugadores"))
+    caract.to_csv(TABLAS / "exp_caracterizacion.csv", index=False, encoding="utf-8")
+
+    # 9. Asociación entre variables categóricas (no correlación). Con frecuencias bajas, orientativo.
+    tabla = pd.crosstab(df["sexo"], df["grupo_edad"])
+    chi2, p_chi, _, _ = stats.chi2_contingency(tabla)
+    n_tab = tabla.to_numpy().sum()
+    k = min(tabla.shape) - 1
+    cramer = float(np.sqrt(chi2 / (n_tab * k)))
+    f_dif = jug.loc[jug["sexo"] == "Femenino", "diferencia"]
+    m_dif = jug.loc[jug["sexo"] == "Masculino", "diferencia"]
+    u = stats.mannwhitneyu(f_dif, m_dif)
+    asociacion = pd.DataFrame([
+        {"prueba": "chi² sexo x grupo de edad (33 personas)", "estadístico": round(chi2, 2),
+         "p": round(p_chi, 3), "V de Cramér": round(cramer, 2)},
+        {"prueba": "Mann-Whitney diferencia por sexo (16 jugadores)", "estadístico": round(u.statistic, 1),
+         "p": round(u.pvalue, 3), "V de Cramér": ""},
+    ])
+    asociacion.to_csv(TABLAS / "exp_asociacion_categoricas.csv", index=False, encoding="utf-8")
+
+    # 10. Gráficos de variables categóricas y de comparación por grupo
+    fig, ax = plt.subplots(figsize=(5, 4))
+    df["sexo"].value_counts().plot(kind="bar", ax=ax, color="gray", edgecolor="black")
+    ax.set_title("Sexo (33 personas)")
+    ax.set_ylabel("Personas")
+    ax.set_xlabel("")
+    ax.tick_params(axis="x", rotation=0)
+    fig.tight_layout()
+    fig.savefig(GRAFICOS / "exp_sexo_barras.png", dpi=150)
+    plt.close(fig)
+
+    fig, ax = plt.subplots(figsize=(5, 4))
+    ax.boxplot([f_dif.to_numpy(), m_dif.to_numpy()])
+    ax.set_xticks([1, 2], ["Femenino", "Masculino"])
+    ax.set_ylabel("Cara a cara − anónima")
+    ax.set_title("Diferencia de monto por sexo (16 jugadores)")
+    fig.tight_layout()
+    fig.savefig(GRAFICOS / "exp_diferencia_por_sexo.png", dpi=150)
+    plt.close(fig)
+
     print(comparacion.to_string(index=False))
     print(f"R2 del modelo: {r2:.2f}")
 
