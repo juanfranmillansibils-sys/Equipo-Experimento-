@@ -57,10 +57,54 @@ Los receptores no se unen a la encuesta, porque la unión es por dictador.
 Las 17 personas que no jugaron tienen vacías las columnas del juego.
 
 ## Paso 5 – Generar nueva información
-Pendiente.
+Se hizo en `codigo/05_variables_nuevas.py`, a partir de `datos/finales/union.csv`. Cada variable nueva es una columna adicional: no se modifica ningún dato original. Todas quedan documentadas en `documentos/diccionario_variables.csv`.
+
+- `incluir_analisis`: 1 si la respuesta entra en el análisis, 0 si es la segunda respuesta de una persona duplicada. Quedan 33 de 34.
+- `indice_social`: promedio simple de generosidad, justicia y consideración hacia los demás (escalas de 1 a 5).
+- `indice_competitivo`: promedio simple de competitividad y beneficio propio (escalas de 1 a 5).
+- `cambio_monto`: aumenta, igual o disminuye, según la diferencia entre la ronda cara a cara y la anónima. Para quienes no jugaron, "sin juego".
+- `grupo_edad`: 19-20, 21-22 y 23 o más.
+
+Los índices son promedios simples, sin ponderar. Los cortes de edad se eligieron para tener grupos de tamaño razonable. Ambas decisiones se tomaron antes de explorar los datos. [confirmar con el equipo]
+
+**Modelo de simulación.** [Pendiente: describir el modelo que explicó la profesora: muestreo, incorporación de una innovación y ajustes hasta unas 200 filas. Los datos simulados se rotulan y no se mezclan con los reales.]
+
+**Idas y vueltas.** Durante el paso 6 se agregaron la caracterización de la población y la prueba de asociación entre variables categóricas. No se cambió ninguna variable del paso 5.
 
 ## Paso 6 – Explorar: visualizar y modelar
-Pendiente. Incluir también los gráficos que no confirmaron nada y las idas y vueltas con el paso 5.
+Se hizo en `codigo/06_analisis.py`, a partir de `datos/finales/analisis.csv`, con las filas `incluir_analisis = 1` (33 personas, 16 jugadores). Los resultados son exploratorios: con 16 jugadores no se puede demostrar causalidad.
 
-## Paso 7 – Comunicar
-Pendiente.
+**Caracterización de la población** (`resultados/tablas/exp_caracterizacion.csv`).
+- 33 personas: 52% masculino y 48% femenino. Edad media de 21 años (rango de 19 a 40).
+- 16 jugadores: 69% femenino y 31% masculino.
+
+**Ronda anónima frente a cara a cara** (prueba de Wilcoxon pareada, 16 jugadores).
+- Monto medio: 37.8 en la ronda anónima y 46.9 cara a cara. Diferencia media de 9.1.
+- 5 jugadores aumentaron, 10 se mantuvieron y 1 disminuyó.
+- p = 0.074: no es significativo al 5%.
+
+**Asociación entre variables categóricas.**
+- Sexo y grupo de edad (chi², 33 personas): p = 0.84, V de Cramér = 0.10. No hay asociación. Con frecuencias bajas, el resultado es orientativo.
+- Diferencia de monto por sexo (Mann-Whitney, 16 jugadores): p = 0.60.
+
+**Correlaciones** (Spearman, 16 jugadores). Se hicieron 27 pruebas y no se corrigieron por comparaciones múltiples. Dos dan p < 0.05:
+- Índice competitivo con monto anónimo: rho = −0.57, p = 0.02.
+- Grado de conocimiento del receptor con la diferencia: rho = 0.57, p = 0.02.
+
+Con tantas pruebas, es esperable que aparezcan resultados así por azar. Se presentan como hipótesis para estudiar con más datos.
+
+**Modelo lineal** (mínimos cuadrados, 16 jugadores): diferencia en función del índice social y el índice competitivo. R² = 0.27, así que explica una parte chica de la variación. No se reportan p-valores por el tamaño de la muestra.
+
+**Gráficos** (`resultados/graficos/`).
+- `exp_anonimo_vs_visible.png`: monto de cada jugador en ambas rondas.
+- `exp_indice_social_vs_monto.png`: índice social frente al monto.
+- `exp_diferencia_hist.png`: distribución de la diferencia entre rondas.
+- `exp_sexo_barras.png`: distribución por sexo (variable binaria).
+- `exp_diferencia_por_sexo.png`: diferencia de monto por sexo.
+
+**Lo que no apareció.** No hay diferencias claras por sexo ni por grupo de edad en el monto. Tampoco hay asociación entre sexo y grupo de edad. El índice social no muestra una relación significativa con el monto entregado, y el cambio entre rondas es pequeño y no significativo.
+
+**Limitaciones del análisis.** Solo 16 jugadores. La encuesta fue anónima. El orden de las rondas fue fijo (primero anónima, después cara a cara). Los receptores no se unen a la encuesta.
+
+
+
