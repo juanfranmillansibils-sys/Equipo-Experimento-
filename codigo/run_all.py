@@ -11,7 +11,7 @@ from pathlib import Path
 
 CODIGO = Path(__file__).resolve().parent
 RAIZ = CODIGO.parent
-PASOS = sorted(CODIGO.glob("0[0-9]_*.py"))
+PASOS = sorted(CODIGO.glob("0[0-9]*_*.py"))  # incluye 05b_aumentacion.py
 
 
 def main():

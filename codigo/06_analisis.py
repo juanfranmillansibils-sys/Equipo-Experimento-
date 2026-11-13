@@ -218,6 +218,23 @@ def main():
                          + tests_asociacion(sim, "simulado (200, solo referencia: p inflados)"))
     tests.to_csv(TABLAS / "exp_tests_asociacion.csv", index=False, encoding="utf-8")
 
+    # 12. Gráfico de referencia: monto anónimo de los reales frente a los simulados (densidad).
+    # Sirve para ver si el modelo reproduce la forma de la distribución real. No es evidencia.
+    fig, ax = plt.subplots(figsize=(6, 4))
+    bins = range(0, 105, 10)
+    ax.hist(df["entregado_anonimo"].dropna(), bins=bins, density=True, alpha=0.6,
+            edgecolor="black", label=f"Reales (n = {df['entregado_anonimo'].notna().sum()})")
+    ax.hist(sim["entregado_anonimo"].dropna(), bins=bins, density=True, histtype="step",
+            linewidth=2, color="black",
+            label=f"Simuladas (n = {sim['entregado_anonimo'].notna().sum()}), solo referencia")
+    ax.set_xlabel("Monto entregado en la ronda anónima")
+    ax.set_ylabel("Densidad")
+    ax.set_title("Monto anónimo: reales frente a simulados")
+    ax.legend(fontsize=8)
+    fig.tight_layout()
+    fig.savefig(GRAFICOS / "exp_simulados_vs_reales_monto.png", dpi=150)
+    plt.close(fig)
+
     print(comparacion.to_string(index=False))
     print(f"R2 del modelo: {r2:.2f}")
 
