@@ -39,7 +39,7 @@ python codigo/run_all.py
 
 ## Limitaciones
 
-- Muestra pequeña (34 encuestados, 16 jugadores).
+- Muestra pequeña (34 encuestados, 33 personas, 16 jugadores).
 - Hubo respuestas de personas que no pudieron jugar.
 - Hay posibles respuestas dobles, que se revisan en el paso 3.
 - Todos los participantes tomaron primero la decisión anónima y después la cara a cara. El orden queda confundido con la experiencia previa.
