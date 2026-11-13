@@ -24,3 +24,10 @@ juego,grado_conocimiento,Conocimiento previo (1-5),entero,1 a 5,Cuánto conocía
 juego,conocimiento_etiqueta,Conocimiento (etiqueta),texto,No la conocía / La conocía poco / La conocía moderadamente / La conocía bastante / La conocía muy bien,Etiqueta de grado_conocimiento (redundante con esa variable),propuesta adicional
 juego,diferencia,Diferencia CC - R1,entero,−100 a 100,entregado_visible menos entregado_anonimo,propuesta del equipo
 juego,observaciones,Observaciones,texto,—,Notas de la transcripción de la ficha,propuesta adicional
+análisis,incluir_analisis,(creada en el paso 5),entero,0 o 1,1 si la respuesta entra en el análisis; 0 si es la segunda respuesta de una persona duplicada,creada en el paso 5
+análisis,indice_social,(creada en el paso 5),decimal,1 a 5,Promedio de generosidad justicia y consideracion_otros,creada en el paso 5
+análisis,indice_competitivo,(creada en el paso 5),decimal,1 a 5,Promedio de competitividad y beneficio_propio,creada en el paso 5
+análisis,cambio_monto,(creada en el paso 5),texto,aumenta / igual / disminuye / sin juego,Dirección del cambio entre entregado_visible y entregado_anonimo según diferencia,creada en el paso 5
+análisis,grupo_edad,(creada en el paso 5),texto,19-20 / 21-22 / 23 o más,Grupo de edad,creada en el paso 5
+simulados,origen,(creada en el paso 5b),texto,simulado,Marca las filas simuladas. Solo existe en simulados.csv,creada en el paso 5b
+simulados,(resto de columnas),(igual que analisis.csv),—,—,Mismas columnas que analisis.csv salvo alias / posible_doble / receptor_anonimo / receptor_visible / observaciones / id_ficha / marca_temporal. Las columnas derivadas se recalculan en el paso 5b,creada en el paso 5b
