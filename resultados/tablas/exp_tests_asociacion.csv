@@ -1,0 +1,9 @@
+población,variables,prueba,estadístico,p,tamaño de efecto
+real (33 personas),edad x sexo,t de Welch,0.81,0.426,d de Cohen = 0.29
+real (33 personas),edad x sexo,Mann-Whitney,140.0,0.895,
+real (33 personas),índice social x grupo de edad,Kruskal-Wallis,0.84,0.658,
+real (33 personas),sexo x grupo de edad,chi² (frecuencias bajas: orientativo),0.35,0.839,V de Cramér = 0.10
+"simulado (200, solo referencia: p inflados)",edad x sexo,t de Welch,1.69,0.094,d de Cohen = 0.26
+"simulado (200, solo referencia: p inflados)",edad x sexo,Mann-Whitney,5186.0,0.567,
+"simulado (200, solo referencia: p inflados)",índice social x grupo de edad,Kruskal-Wallis,4.6,0.1,
+"simulado (200, solo referencia: p inflados)",sexo x grupo de edad,chi²,5.59,0.061,V de Cramér = 0.17

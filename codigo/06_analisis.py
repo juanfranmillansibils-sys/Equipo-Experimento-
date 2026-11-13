@@ -182,6 +182,42 @@ def main():
     fig.savefig(GRAFICOS / "exp_diferencia_por_sexo.png", dpi=150)
     plt.close(fig)
 
+    # 11. Tests de asociación, como en el script de la profesora.
+    # Se corren sobre los datos reales (inferencia) y sobre las simuladas (solo referencia).
+    def tests_asociacion(d, etiqueta):
+        filas = []
+        f = d.loc[d["sexo"] == "Femenino", "edad"].dropna()
+        m = d.loc[d["sexo"] == "Masculino", "edad"].dropna()
+        t = stats.ttest_ind(f, m, equal_var=False)
+        sp = np.sqrt(((len(f) - 1) * f.var() + (len(m) - 1) * m.var()) / (len(f) + len(m) - 2))
+        d_cohen = (f.mean() - m.mean()) / sp
+        filas.append({"población": etiqueta, "variables": "edad x sexo", "prueba": "t de Welch",
+                      "estadístico": round(t.statistic, 2), "p": round(t.pvalue, 3),
+                      "tamaño de efecto": f"d de Cohen = {d_cohen:.2f}"})
+        u = stats.mannwhitneyu(f, m)
+        filas.append({"población": etiqueta, "variables": "edad x sexo", "prueba": "Mann-Whitney",
+                      "estadístico": round(u.statistic, 1), "p": round(u.pvalue, 3),
+                      "tamaño de efecto": ""})
+        grupos = [d.loc[d["grupo_edad"] == g, "indice_social"].dropna()
+                  for g in ["19-20", "21-22", "23 o más"]]
+        k = stats.kruskal(*grupos)
+        filas.append({"población": etiqueta, "variables": "índice social x grupo de edad",
+                      "prueba": "Kruskal-Wallis", "estadístico": round(k.statistic, 2),
+                      "p": round(k.pvalue, 3), "tamaño de efecto": ""})
+        tab = pd.crosstab(d["sexo"], d["grupo_edad"])
+        chi2, p_chi, _, esperados = stats.chi2_contingency(tab)
+        nota = " (frecuencias bajas: orientativo)" if (esperados < 5).any() else ""
+        v = np.sqrt(chi2 / (tab.to_numpy().sum() * (min(tab.shape) - 1)))
+        filas.append({"población": etiqueta, "variables": "sexo x grupo de edad",
+                      "prueba": "chi²" + nota, "estadístico": round(chi2, 2), "p": round(p_chi, 3),
+                      "tamaño de efecto": f"V de Cramér = {v:.2f}"})
+        return filas
+
+    sim = pd.read_csv(FINALES / "simulados.csv")
+    tests = pd.DataFrame(tests_asociacion(df, "real (33 personas)")
+                         + tests_asociacion(sim, "simulado (200, solo referencia: p inflados)"))
+    tests.to_csv(TABLAS / "exp_tests_asociacion.csv", index=False, encoding="utf-8")
+
     print(comparacion.to_string(index=False))
     print(f"R2 del modelo: {r2:.2f}")
 

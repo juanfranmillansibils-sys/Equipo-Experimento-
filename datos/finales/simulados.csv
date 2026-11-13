@@ -1,0 +1,201 @@
+edad,sexo,generosidad,justicia,consideracion_otros,beneficio_propio,competitividad,influencia_social,entregado_anonimo,conservado_anonimo,ronda,ronda_inferida,entregado_visible,conservado_visible,grado_conocimiento,conocimiento_etiqueta,diferencia,en_juego,incluir_analisis,indice_social,indice_competitivo,cambio_monto,grupo_edad,origen
+20.0,Femenino,4.0,5.0,5.0,5.0,3.0,2.0,,,,,,,,,,False,1,4.67,4.0,sin juego,19-20,simulado
+20.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+40.0,Femenino,3.0,5.0,5.0,2.0,2.0,3.0,21.0,79.0,2.0,No,3.0,97.0,3.0,La conocía moderadamente,-18.0,True,1,4.33,2.0,disminuye,23 o más,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,18.0,82.0,3.0,No,30.0,70.0,3.0,La conocía moderadamente,12.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Femenino,4.0,5.0,5.0,5.0,3.0,2.0,,,,,,,,,,False,1,4.67,4.0,sin juego,19-20,simulado
+21.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,,,,,,,,,,False,1,4.33,4.0,sin juego,21-22,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,42.0,58.0,3.0,No,48.0,52.0,3.0,La conocía moderadamente,6.0,True,1,4.33,4.0,aumenta,19-20,simulado
+23.0,Masculino,5.0,4.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,22.0,78.0,3.0,No,29.0,71.0,3.0,La conocía moderadamente,7.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,53.0,47.0,2.0,No,50.0,50.0,5.0,La conocía muy bien,-3.0,True,1,4.33,3.5,disminuye,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,19.0,81.0,3.0,No,35.0,65.0,3.0,La conocía moderadamente,16.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,4.0,4.0,4.0,,,,,,,,,,False,1,4.0,4.0,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,52.0,48.0,3.0,Sí,52.0,48.0,1.0,No la conocía,0.0,True,1,4.0,4.5,igual,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,23.0,77.0,3.0,No,28.0,72.0,3.0,La conocía moderadamente,5.0,True,1,4.33,4.0,aumenta,19-20,simulado
+18.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,48.0,52.0,2.0,No,51.0,49.0,5.0,La conocía muy bien,3.0,True,1,4.33,3.5,aumenta,nan,simulado
+21.0,Masculino,4.0,4.0,4.0,4.0,4.0,4.0,,,,,,,,,,False,1,4.0,4.0,sin juego,21-22,simulado
+20.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+22.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,25.0,75.0,3.0,No,30.0,70.0,3.0,La conocía moderadamente,5.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,50.0,50.0,3.0,No,97.0,3.0,4.0,La conocía bastante,47.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,50.0,50.0,4.0,La conocía bastante,50.0,True,1,4.33,5.0,aumenta,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,1.0,99.0,3.0,No,51.0,49.0,4.0,La conocía bastante,50.0,True,1,4.33,5.0,aumenta,19-20,simulado
+20.0,Femenino,4.0,4.0,4.0,4.0,3.0,3.0,,,,,,,,,,False,1,4.0,3.5,sin juego,19-20,simulado
+21.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,51.0,49.0,4.0,La conocía bastante,51.0,True,1,4.33,5.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,51.0,49.0,2.0,No,44.0,56.0,5.0,La conocía muy bien,-7.0,True,1,4.33,3.5,disminuye,19-20,simulado
+23.0,Masculino,5.0,4.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,91.0,9.0,2.0,No,85.0,15.0,1.0,No la conocía,-6.0,True,1,4.33,3.5,disminuye,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,15.0,85.0,3.0,No,26.0,74.0,3.0,La conocía moderadamente,11.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,3.0,50.0,50.0,2.0,No,75.0,25.0,4.0,La conocía bastante,25.0,True,1,4.33,3.5,aumenta,19-20,simulado
+22.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,22.0,78.0,3.0,No,33.0,67.0,3.0,La conocía moderadamente,11.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,43.0,57.0,2.0,No,51.0,49.0,5.0,La conocía muy bien,8.0,True,1,4.33,3.5,aumenta,19-20,simulado
+26.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+18.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,50.0,50.0,3.0,Sí,55.0,45.0,1.0,No la conocía,5.0,True,1,4.0,4.5,aumenta,nan,simulado
+24.0,Masculino,5.0,4.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,49.0,51.0,4.0,La conocía bastante,49.0,True,1,4.33,5.0,aumenta,19-20,simulado
+18.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,20.0,80.0,3.0,No,46.0,54.0,5.0,La conocía muy bien,26.0,True,1,4.33,4.5,aumenta,nan,simulado
+21.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,,,,,,,,,,False,1,4.33,4.0,sin juego,21-22,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,42.0,58.0,3.0,No,44.0,56.0,3.0,La conocía moderadamente,2.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,48.0,52.0,2.0,No,45.0,55.0,5.0,La conocía muy bien,-3.0,True,1,4.33,3.5,disminuye,19-20,simulado
+20.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,52.0,48.0,3.0,No,47.0,53.0,1.0,No la conocía,-5.0,True,1,4.33,4.0,disminuye,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,88.0,12.0,2.0,No,90.0,10.0,1.0,No la conocía,2.0,True,1,4.33,3.5,aumenta,21-22,simulado
+20.0,Femenino,4.0,4.0,4.0,4.0,3.0,3.0,,,,,,,,,,False,1,4.0,3.5,sin juego,19-20,simulado
+22.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,,,,,,,,,,False,1,4.33,4.0,sin juego,21-22,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,50.0,50.0,3.0,No,54.0,46.0,1.0,No la conocía,4.0,True,1,4.33,4.0,aumenta,19-20,simulado
+22.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,51.0,49.0,2.0,No,51.0,49.0,2.0,La conocía poco,0.0,True,1,4.67,3.5,igual,21-22,simulado
+23.0,Femenino,4.0,5.0,5.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.67,3.5,sin juego,23 o más,simulado
+20.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,4.0,4.0,4.0,4.0,4.0,,,,,,,,,,False,1,4.0,4.0,sin juego,19-20,simulado
+21.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,,,,,,,,,,False,1,4.33,4.0,sin juego,21-22,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,52.0,48.0,4.0,La conocía bastante,52.0,True,1,4.33,5.0,aumenta,19-20,simulado
+23.0,Masculino,5.0,4.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,43.0,57.0,3.0,No,45.0,55.0,3.0,La conocía moderadamente,2.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,44.0,56.0,3.0,No,44.0,56.0,3.0,La conocía moderadamente,0.0,True,1,4.33,4.0,igual,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,90.0,10.0,2.0,No,92.0,8.0,1.0,No la conocía,2.0,True,1,4.33,3.5,aumenta,21-22,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,2.0,3.0,97.0,2.0,No,0.0,100.0,1.0,No la conocía,-3.0,True,1,4.33,4.5,disminuye,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,51.0,49.0,2.0,No,48.0,52.0,5.0,La conocía muy bien,-3.0,True,1,4.33,3.5,disminuye,19-20,simulado
+23.0,Femenino,4.0,5.0,5.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.67,3.5,sin juego,23 o más,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,48.0,52.0,2.0,No,52.0,48.0,5.0,La conocía muy bien,4.0,True,1,4.33,3.5,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,4.0,8.0,92.0,2.0,No,11.0,89.0,1.0,No la conocía,3.0,True,1,4.33,4.5,aumenta,19-20,simulado
+22.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,51.0,49.0,2.0,No,51.0,49.0,2.0,La conocía poco,0.0,True,1,4.67,3.5,igual,21-22,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,51.0,49.0,3.0,No,53.0,47.0,1.0,No la conocía,2.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,50.0,50.0,3.0,No,50.0,50.0,1.0,No la conocía,0.0,True,1,4.33,4.0,igual,19-20,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,22.0,78.0,3.0,No,42.0,58.0,5.0,La conocía muy bien,20.0,True,1,4.33,4.5,aumenta,19-20,simulado
+20.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,50.0,50.0,3.0,No,100.0,0.0,4.0,La conocía bastante,50.0,True,1,4.33,4.0,aumenta,19-20,simulado
+22.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,53.0,47.0,2.0,No,48.0,52.0,2.0,La conocía poco,-5.0,True,1,4.67,3.5,disminuye,21-22,simulado
+20.0,Femenino,4.0,5.0,5.0,5.0,3.0,2.0,,,,,,,,,,False,1,4.67,4.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,2.0,98.0,3.0,No,52.0,48.0,4.0,La conocía bastante,50.0,True,1,4.33,5.0,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,48.0,52.0,3.0,No,52.0,48.0,1.0,No la conocía,4.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Femenino,4.0,5.0,5.0,5.0,3.0,2.0,,,,,,,,,,False,1,4.67,4.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,-0.0,100.0,3.0,No,51.0,49.0,4.0,La conocía bastante,51.0,True,1,4.33,5.0,aumenta,19-20,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+20.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,20.0,80.0,3.0,No,43.0,57.0,5.0,La conocía muy bien,23.0,True,1,4.33,4.5,aumenta,19-20,simulado
+18.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,nan,simulado
+20.0,Femenino,4.0,4.0,4.0,5.0,3.0,4.0,52.0,48.0,2.0,No,49.0,51.0,1.0,No la conocía,-3.0,True,1,4.0,4.0,disminuye,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,47.0,53.0,3.0,No,46.0,54.0,3.0,La conocía moderadamente,-1.0,True,1,4.33,4.0,disminuye,19-20,simulado
+20.0,Masculino,4.0,4.0,4.0,4.0,4.0,4.0,,,,,,,,,,False,1,4.0,4.0,sin juego,19-20,simulado
+23.0,Masculino,5.0,4.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+20.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,46.0,54.0,2.0,No,49.0,51.0,5.0,La conocía muy bien,3.0,True,1,4.33,3.5,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,91.0,9.0,2.0,No,88.0,12.0,1.0,No la conocía,-3.0,True,1,4.33,3.5,disminuye,21-22,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,47.0,53.0,2.0,No,48.0,52.0,5.0,La conocía muy bien,1.0,True,1,4.33,3.5,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,21.0,79.0,3.0,No,48.0,52.0,5.0,La conocía muy bien,27.0,True,1,4.33,4.5,aumenta,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,3.0,2.0,3.0,49.0,51.0,3.0,No,52.0,48.0,1.0,No la conocía,3.0,True,1,4.33,2.5,aumenta,19-20,simulado
+21.0,Masculino,4.0,5.0,4.0,5.0,4.0,4.0,12.0,88.0,2.0,No,3.0,97.0,1.0,No la conocía,-9.0,True,1,4.33,4.5,disminuye,21-22,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,22.0,78.0,3.0,No,35.0,65.0,3.0,La conocía moderadamente,13.0,True,1,4.33,4.0,aumenta,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,3.0,53.0,47.0,2.0,No,80.0,20.0,4.0,La conocía bastante,27.0,True,1,4.33,3.5,aumenta,21-22,simulado
+40.0,Femenino,3.0,5.0,5.0,2.0,2.0,3.0,20.0,80.0,2.0,No,0.0,100.0,3.0,La conocía moderadamente,-20.0,True,1,4.33,2.0,disminuye,23 o más,simulado
+20.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,20.0,80.0,3.0,No,31.0,69.0,3.0,La conocía moderadamente,11.0,True,1,4.33,4.0,aumenta,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,90.0,10.0,2.0,No,91.0,9.0,1.0,No la conocía,1.0,True,1,4.33,3.5,aumenta,21-22,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+20.0,Femenino,4.0,4.0,4.0,5.0,3.0,4.0,42.0,58.0,2.0,No,47.0,53.0,1.0,No la conocía,5.0,True,1,4.0,4.0,aumenta,19-20,simulado
+27.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+26.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,3.0,2.0,3.0,51.0,49.0,3.0,No,51.0,49.0,1.0,No la conocía,0.0,True,1,4.33,2.5,igual,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,49.0,51.0,3.0,Sí,42.0,58.0,1.0,No la conocía,-7.0,True,1,4.0,4.5,disminuye,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,90.0,10.0,2.0,No,91.0,9.0,1.0,No la conocía,1.0,True,1,4.33,3.5,aumenta,21-22,simulado
+19.0,Femenino,4.0,4.0,5.0,3.0,2.0,3.0,48.0,52.0,3.0,No,50.0,50.0,1.0,No la conocía,2.0,True,1,4.33,2.5,aumenta,19-20,simulado
+26.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+21.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,49.0,51.0,2.0,No,50.0,50.0,5.0,La conocía muy bien,1.0,True,1,4.33,3.5,aumenta,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,91.0,9.0,2.0,No,85.0,15.0,1.0,No la conocía,-6.0,True,1,4.33,3.5,disminuye,21-22,simulado
+18.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,53.0,47.0,2.0,No,49.0,51.0,5.0,La conocía muy bien,-4.0,True,1,4.33,3.5,disminuye,nan,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,55.0,45.0,3.0,No,47.0,53.0,1.0,No la conocía,-8.0,True,1,4.33,4.0,disminuye,19-20,simulado
+21.0,Masculino,4.0,4.0,3.0,4.0,4.0,2.0,,,,,,,,,,False,1,3.67,4.0,sin juego,21-22,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+23.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,52.0,48.0,2.0,No,51.0,49.0,2.0,La conocía poco,-1.0,True,1,4.67,3.5,disminuye,23 o más,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+18.0,Femenino,4.0,4.0,5.0,3.0,2.0,3.0,52.0,48.0,3.0,No,48.0,52.0,1.0,No la conocía,-4.0,True,1,4.33,2.5,disminuye,nan,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,4.0,10.0,90.0,2.0,No,16.0,84.0,1.0,No la conocía,6.0,True,1,4.33,4.5,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,46.0,54.0,3.0,No,49.0,51.0,1.0,No la conocía,3.0,True,1,4.33,4.0,aumenta,19-20,simulado
+18.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,21.0,79.0,3.0,No,47.0,53.0,5.0,La conocía muy bien,26.0,True,1,4.33,4.5,aumenta,nan,simulado
+20.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,3.0,49.0,51.0,2.0,No,84.0,16.0,4.0,La conocía bastante,35.0,True,1,4.33,3.5,aumenta,19-20,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,53.0,47.0,2.0,No,48.0,52.0,5.0,La conocía muy bien,-5.0,True,1,4.33,3.5,disminuye,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,16.0,84.0,3.0,No,32.0,68.0,3.0,La conocía moderadamente,16.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,45.0,55.0,3.0,No,46.0,54.0,3.0,La conocía moderadamente,1.0,True,1,4.33,4.0,aumenta,19-20,simulado
+21.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+18.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,50.0,50.0,2.0,No,46.0,54.0,5.0,La conocía muy bien,-4.0,True,1,4.33,3.5,disminuye,nan,simulado
+22.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,51.0,49.0,2.0,No,49.0,51.0,2.0,La conocía poco,-2.0,True,1,4.67,3.5,disminuye,21-22,simulado
+26.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+24.0,Femenino,4.0,5.0,5.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.67,3.5,sin juego,23 o más,simulado
+20.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,46.0,54.0,3.0,Sí,50.0,50.0,1.0,No la conocía,4.0,True,1,4.0,4.5,aumenta,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,53.0,47.0,4.0,La conocía bastante,53.0,True,1,4.33,5.0,aumenta,19-20,simulado
+19.0,Femenino,4.0,4.0,4.0,4.0,3.0,3.0,,,,,,,,,,False,1,4.0,3.5,sin juego,19-20,simulado
+21.0,Masculino,4.0,3.0,3.0,4.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.5,sin juego,21-22,simulado
+20.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,51.0,49.0,3.0,Sí,48.0,52.0,1.0,No la conocía,-3.0,True,1,4.0,4.5,disminuye,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,3.0,5.0,3.0,50.0,50.0,3.0,No,48.0,52.0,1.0,No la conocía,-2.0,True,1,4.33,4.0,disminuye,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,2.0,0.0,100.0,2.0,No,1.0,99.0,1.0,No la conocía,1.0,True,1,4.33,4.5,aumenta,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,45.0,55.0,3.0,No,48.0,52.0,3.0,La conocía moderadamente,3.0,True,1,4.33,4.0,aumenta,19-20,simulado
+21.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+23.0,Femenino,4.0,5.0,5.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.67,3.5,sin juego,23 o más,simulado
+20.0,Femenino,4.0,5.0,4.0,4.0,3.0,3.0,47.0,53.0,2.0,No,81.0,19.0,4.0,La conocía bastante,34.0,True,1,4.33,3.5,aumenta,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,52.0,48.0,2.0,No,49.0,51.0,5.0,La conocía muy bien,-3.0,True,1,4.33,3.5,disminuye,19-20,simulado
+20.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+20.0,Femenino,4.0,4.0,4.0,4.0,3.0,3.0,,,,,,,,,,False,1,4.0,3.5,sin juego,19-20,simulado
+21.0,Masculino,4.0,5.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+20.0,Femenino,4.0,4.0,4.0,5.0,3.0,4.0,49.0,51.0,2.0,No,47.0,53.0,1.0,No la conocía,-2.0,True,1,4.0,4.0,disminuye,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,94.0,6.0,2.0,No,90.0,10.0,1.0,No la conocía,-4.0,True,1,4.33,3.5,disminuye,21-22,simulado
+21.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,48.0,52.0,3.0,Sí,47.0,53.0,1.0,No la conocía,-1.0,True,1,4.0,4.5,disminuye,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+22.0,Femenino,4.0,5.0,5.0,4.0,3.0,3.0,52.0,48.0,2.0,No,53.0,47.0,2.0,La conocía poco,1.0,True,1,4.67,3.5,aumenta,21-22,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,93.0,7.0,2.0,No,95.0,5.0,1.0,No la conocía,2.0,True,1,4.33,3.5,aumenta,21-22,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+40.0,Femenino,3.0,5.0,5.0,2.0,2.0,3.0,22.0,78.0,2.0,No,0.0,100.0,3.0,La conocía moderadamente,-22.0,True,1,4.33,2.0,disminuye,23 o más,simulado
+19.0,Masculino,4.0,3.0,4.0,2.0,3.0,2.0,,,,,,,,,,False,1,3.67,2.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,4.0,3.0,51.0,49.0,3.0,Sí,53.0,47.0,1.0,No la conocía,2.0,True,1,4.0,4.5,aumenta,19-20,simulado
+26.0,Masculino,4.0,4.0,4.0,4.0,4.0,2.0,,,,,,,,,,False,1,4.0,4.0,sin juego,23 o más,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,2.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,93.0,7.0,2.0,No,93.0,7.0,1.0,No la conocía,0.0,True,1,4.33,3.5,igual,21-22,simulado
+21.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+21.0,Masculino,4.0,4.0,3.0,4.0,4.0,2.0,,,,,,,,,,False,1,3.67,4.0,sin juego,21-22,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,3.0,3.0,49.0,51.0,2.0,No,78.0,22.0,4.0,La conocía bastante,29.0,True,1,4.33,3.5,aumenta,19-20,simulado
+19.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,45.0,55.0,3.0,No,53.0,47.0,3.0,La conocía moderadamente,8.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,5.0,4.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,5.0,5.0,2.0,0.0,100.0,3.0,No,51.0,49.0,4.0,La conocía bastante,51.0,True,1,4.33,5.0,aumenta,19-20,simulado
+19.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,20.0,80.0,3.0,No,31.0,69.0,3.0,La conocía moderadamente,11.0,True,1,4.33,4.0,aumenta,19-20,simulado
+21.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,,,,,,,,,,False,1,4.33,4.0,sin juego,21-22,simulado
+40.0,Femenino,3.0,5.0,5.0,2.0,2.0,3.0,23.0,77.0,2.0,No,4.0,96.0,3.0,La conocía moderadamente,-19.0,True,1,4.33,2.0,disminuye,23 o más,simulado
+23.0,Femenino,4.0,5.0,5.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.67,3.5,sin juego,23 o más,simulado
+20.0,Femenino,4.0,4.0,5.0,4.0,4.0,5.0,51.0,49.0,3.0,No,100.0,0.0,4.0,La conocía bastante,49.0,True,1,4.33,4.0,aumenta,19-20,simulado
+20.0,Masculino,4.0,4.0,5.0,5.0,3.0,3.0,23.0,77.0,3.0,No,28.0,72.0,3.0,La conocía moderadamente,5.0,True,1,4.33,4.0,aumenta,19-20,simulado
+19.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+20.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,3.0,4.0,94.0,6.0,2.0,No,84.0,16.0,1.0,No la conocía,-10.0,True,1,4.33,3.5,disminuye,21-22,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,19-20,simulado
+21.0,Masculino,4.0,5.0,4.0,4.0,3.0,4.0,,,,,,,,,,False,1,4.33,3.5,sin juego,21-22,simulado
+19.0,Masculino,4.0,4.0,4.0,5.0,5.0,2.0,,,,,,,,,,False,1,4.0,5.0,sin juego,19-20,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+23.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,23 o más,simulado
+20.0,Masculino,3.0,3.0,4.0,3.0,5.0,3.0,,,,,,,,,,False,1,3.33,4.0,sin juego,19-20,simulado
+19.0,Femenino,4.0,5.0,4.0,4.0,5.0,5.0,20.0,80.0,3.0,No,47.0,53.0,5.0,La conocía muy bien,27.0,True,1,4.33,4.5,aumenta,19-20,simulado
+21.0,Femenino,4.0,5.0,4.0,4.0,5.0,3.0,,,,,,,,,,False,1,4.33,4.5,sin juego,21-22,simulado
