@@ -67,9 +67,17 @@ Se hizo en `codigo/05_variables_nuevas.py`, a partir de `datos/finales/union.csv
 
 Los índices son promedios simples, sin ponderar. Los cortes de edad se eligieron para tener grupos de tamaño razonable. Ambas decisiones se tomaron antes de explorar los datos. [confirmar con el equipo]
 
-**Modelo de simulación.** [Pendiente: describir el modelo que explicó la profesora: muestreo, incorporación de una innovación y ajustes hasta unas 200 filas. Los datos simulados se rotulan y no se mezclan con los reales.]
+**Modelo de simulación** (`codigo/05b_aumentacion.py`, salida en `datos/finales/simulados.csv`). Siguiendo el modelo que explicó la profesora, se generan filas simuladas a partir de las 33 personas del análisis.
+- Muestreo: se eligen filas de `analisis.csv` con reemplazo, hasta completar 200 filas. [confirmar con la profesora: 200 filas en total o 200 adicionales]
+- Innovación: a cada variable numérica se le suma ruido normal con desvío igual al 10% del desvío de esa variable. [confirmar con la profesora que este es el ajuste que pidió]
+- Ajustes: los valores se redondean y se ajustan a los rangos válidos (escalas de 1 a 5, montos de 0 a 100, edad de 17 a 99). Las columnas derivadas (monto conservado, diferencia, índices, grupo de edad y cambio de monto) se recalculan a partir de los valores ajustados.
+- Rotulado: cada fila tiene `origen = "simulado"`. El archivo no incluye alias, marca temporal ni receptores, así que no se puede vincular con personas reales.
+- Control: `resultados/tablas/aumentacion_control_medias.csv` compara medias reales y simuladas. Son parecidas: por ejemplo, edad 21.00 real y 20.73 simulada; índice social 4.20 y 4.22.
 
-**Idas y vueltas.** Durante el paso 6 se agregaron la caracterización de la población y la prueba de asociación entre variables categóricas. No se cambió ninguna variable del paso 5.
+La aumentación no agrega información: las filas simuladas son copias perturbadas de las reales. Por eso el modelo se usa para probar el código y como referencia, y no para inferencia. Las conclusiones del paso 6 se sacan de los datos reales.
+
+**Idas y vueltas.** Durante el paso 6 se agregaron la caracterización de la población y la prueba de asociación entre variables categóricas. Siguiendo la explicación de la profesora, se agregó el modelo de simulación (05b). No se cambió ninguna variable del paso 5.
+
 
 ## Paso 6 – Explorar: visualizar y modelar
 Se hizo en `codigo/06_analisis.py`, a partir de `datos/finales/analisis.csv`, con las filas `incluir_analisis = 1` (33 personas, 16 jugadores). Los resultados son exploratorios: con 16 jugadores no se puede demostrar causalidad.
