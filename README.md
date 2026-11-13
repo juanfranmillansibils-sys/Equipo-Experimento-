@@ -20,7 +20,7 @@ El diseño experimental no permite demostrar causalidad en general; el análisis
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── codigo/              scripts en orden, 01 a 06, y run_all.py
+├── codigo/              scripts en orden, 01 a 06 (también 05b modelo de simulación), y run_all.py
 ├── datos/
 │   ├── crudos/          datos originales, sin modificar
 │   └── finales/         tablas procesadas
@@ -45,6 +45,7 @@ python codigo/run_all.py
 - Todos los participantes tomaron primero la decisión anónima y después la cara a cara. El orden queda confundido con la experiencia previa.
 - Cada jugador aporta dos decisiones, por lo que no son observaciones independientes.
 - La encuesta fue anónima, por lo que no es posible confirmar con certeza si una misma persona respondió más de una vez. Se identificaron cinco pares sospechosos por edad, sexo y respuestas
+- Los datos simulados (200 filas, paso 5) no agregan información, y sus p-valores no se usan para inferencia.
 
 ## Integrantes
 
