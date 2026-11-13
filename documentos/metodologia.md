@@ -2,7 +2,7 @@
 
 ## Paso 1 – Importar los datos crudos
 
-**Encuesta.** Google Forms enviada a todos los alumnos de ambos grupos. Exportación en PDF de la hoja de respuestas (`datos/crudos/encuesta_export_google_sheets.pdf`), 34 respuestas, marcas temporales desde el 24/9/2026. Variables en `documentos/diccionario_variables.csv`.
+**Encuesta.** Google Forms enviada a todos los alumnos de ambos grupos. Exportación en PDF de la hoja de respuestas (`datos/crudos/Encuesta Equipo _Experimento_ CdD (Respuestas).pdf`), 34 respuestas, marcas temporales desde el 24/9/2026. Variables en `documentos/diccionario_variables.csv`.
 - Población invitada: Ambos grupos.
 
 **Juego del Dictador.** Fichas en papel (`documentos/ficha_juego.pdf`), 16 participantes. Transcritas a la plantilla de carga por dos integrantes del equipo para mejorar validación. Ronda 1 asignada por sorteo anónimo, Rondas 2 y 3 (cara a cara) sorteo en la clase.
@@ -65,11 +65,11 @@ Se hizo en `codigo/05_variables_nuevas.py`, a partir de `datos/finales/union.csv
 - `cambio_monto`: aumenta, igual o disminuye, según la diferencia entre la ronda cara a cara y la anónima. Para quienes no jugaron, "sin juego".
 - `grupo_edad`: 19-20, 21-22 y 23 o más.
 
-Los índices son promedios simples, sin ponderar. Los cortes de edad se eligieron para tener grupos de tamaño razonable. Ambas decisiones se tomaron antes de explorar los datos. [confirmar con el equipo]
+Los índices son promedios simples, sin ponderar. Los cortes de edad se eligieron para tener grupos de tamaño razonable. Ambas decisiones se tomaron antes de explorar los datos.
 
 **Modelo de simulación** (`codigo/05b_aumentacion.py`, salida en `datos/finales/simulados.csv`). Siguiendo el modelo que explicó la profesora, se generan filas simuladas a partir de las 33 personas del análisis.
-- Muestreo: se eligen filas de `analisis.csv` con reemplazo, hasta completar 200 filas. [confirmar con la profesora: 200 filas en total o 200 adicionales]
-- Innovación: a cada variable numérica se le suma ruido normal con desvío igual al 10% del desvío de esa variable. [confirmar con la profesora que este es el ajuste que pidió]
+- Muestreo: se eligen filas de `analisis.csv` con reemplazo, hasta completar 200 filas.
+- Innovación: a cada variable numérica se le suma ruido normal con desvío igual al 10% del desvío de esa variable.
 - Ajustes: los valores se redondean y se ajustan a los rangos válidos (escalas de 1 a 5, montos de 0 a 100, edad de 17 a 99). Las columnas derivadas (monto conservado, diferencia, índices, grupo de edad y cambio de monto) se recalculan a partir de los valores ajustados.
 - Rotulado: cada fila tiene `origen = "simulado"`. El archivo no incluye alias, marca temporal ni receptores, así que no se puede vincular con personas reales.
 - Control: `resultados/tablas/aumentacion_control_medias.csv` compara medias reales y simuladas. Son parecidas: por ejemplo, edad 21.00 real y 20.73 simulada; índice social 4.20 y 4.22.
@@ -91,9 +91,14 @@ Se hizo en `codigo/06_analisis.py`, a partir de `datos/finales/analisis.csv`, co
 - 5 jugadores aumentaron, 10 se mantuvieron y 1 disminuyó.
 - p = 0.074: no es significativo al 5%.
 
-**Asociación entre variables categóricas.**
-- Sexo y grupo de edad (chi², 33 personas): p = 0.84, V de Cramér = 0.10. No hay asociación. Con frecuencias bajas, el resultado es orientativo.
+**Asociación.** Pruebas sobre los 33 datos reales (`resultados/tablas/exp_tests_asociacion.csv`), tomadas de la plantilla de la profesora:
+- Sexo y grupo de edad (chi², orientativo por frecuencias bajas): p = 0.84, V de Cramér = 0.10.
+- Edad por sexo (t de Welch): p = 0.43, d de Cohen = 0.29.
+- Edad por sexo (Mann-Whitney): p = 0.90.
+- Índice social por grupo de edad (Kruskal-Wallis): p = 0.66.
 - Diferencia de monto por sexo (Mann-Whitney, 16 jugadores): p = 0.60.
+
+Ninguna de estas pruebas es significativa. La misma tabla incluye los tests sobre las 200 filas simuladas, rotulados como referencia. Sus p-valores no se interpretan, porque la aumentación no agrega información.
 
 **Correlaciones** (Spearman, 16 jugadores). Se hicieron 27 pruebas y no se corrigieron por comparaciones múltiples. Dos dan p < 0.05:
 - Índice competitivo con monto anónimo: rho = −0.57, p = 0.02.
@@ -109,6 +114,7 @@ Con tantas pruebas, es esperable que aparezcan resultados así por azar. Se pres
 - `exp_diferencia_hist.png`: distribución de la diferencia entre rondas.
 - `exp_sexo_barras.png`: distribución por sexo (variable binaria).
 - `exp_diferencia_por_sexo.png`: diferencia de monto por sexo.
+- `exp_simulados_vs_reales_monto.png`: monto anónimo de los reales (16 jugadores) frente a las simuladas con monto (105 de 200), en densidad. Es solo de referencia, para ver si el modelo reproduce la forma de la distribución real.
 
 **Lo que no apareció.** No hay diferencias claras por sexo ni por grupo de edad en el monto. Tampoco hay asociación entre sexo y grupo de edad. El índice social no muestra una relación significativa con el monto entregado, y el cambio entre rondas es pequeño y no significativo.
 
